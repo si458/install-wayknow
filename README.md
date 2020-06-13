@@ -14,7 +14,7 @@
 ## Instructions
  1. clone repo
  2. place the WaykNow X64 msi inside the `public` folder named as `wayknow.msi`
- 3. edit the `WaykNow.cfg` with your custom configs
+ 3. edit the `WaykNow.cfg` which is located inside the `public` folder with your custom configs
  4. run command prompt or powershell at the clones repo folder
  5. run `statik` (this will build the embedded files required)
  6. run `rsrc -manifest install.exe.manifest -o install.syso` (this will embed the admin rights into the exe)
